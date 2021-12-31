@@ -1,0 +1,57 @@
+      *
+      * The UI for 3d maze
+      *
+      * Copyright 2020, Brian J Garland
+      *
+     A                                      DSPSIZ(*DS4)
+      *
+      *-------------------------------------------------------------------------
+     A          R S1
+      *-------------------------------------------------------------------------
+     A                                      OVERLAY
+     A                                      CLRL(*ALL)
+     A                                      CF01
+     A                                      CF02
+     A                                      CF03
+     A                                      CF08
+     A                                      CF11
+      *
+     A            LINE01       130A     1  2
+     A            LINE02       130A     2  2
+     A            LINE03       130A     3  2
+     A            LINE04       130A     4  2
+     A            LINE05       130A     5  2
+     A            LINE06       130A     6  2
+     A            LINE07       130A     7  2
+     A            LINE08       130A     8  2
+     A            LINE09       130A     9  2
+     A            LINE10       130A    10  2
+     A            LINE11       130A    11  2
+     A            LINE12       130A    12  2
+     A            LINE13       130A    13  2
+     A            LINE14       130A    14  2
+     A            LINE15       130A    15  2
+     A            LINE16       130A    16  2
+     A            LINE17       130A    17  2
+     A            LINE18       130A    18  2
+     A            LINE19       130A    19  2
+     A            LINE20       130A    20  2
+     A            LINE21       130A    21  2
+     A            LINE22       130A    22  2
+     A            LINE23       130A    23  2
+     A            LINE24       130A    24  2
+     A            LINE25       130A    25  2
+     A            LINE26       130A    26  2
+      *
+     A                                 27  2 'F1=Left'                COLOR(BLU)
+     A                                    +2 'F2=Right'               COLOR(BLU)
+     A                                    +2 'F3=Quit'                COLOR(BLU)
+     A                                    +2 'F8=Forward'             COLOR(BLU)
+     A                                    +2 'F11=Debug on/off'       COLOR(BLU)
+      *
+     A                                 27105 'x='                     DSPATR(HI)
+     A            SX             3D 0     +1                          DSPATR(HI)
+     A                                 27115 'y='                     DSPATR(HI)
+     A            SY             3D 0     +1                          DSPATR(HI)
+     A                                 27125 'dir='                   DSPATR(HI)
+     A            SDIR           3D 0     +1                          DSPATR(HI)
