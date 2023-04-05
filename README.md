@@ -1,6 +1,6 @@
 # 3d Maze
 
-A 5050 3d maze program  
+A 5250 3d maze program  
 
 ### Installation 
 
